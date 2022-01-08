@@ -19,7 +19,7 @@
         <div class="header_prog">
         <div class="logo">
             <img src="header/IMG/book_120884.png">
-            <h5>Online diary<br><span class="title_underText">Take bag and get this fu*king knowledge</span></h5>
+            <h5>Online diary<br><span class="title_underText">Take bag and keep this fu*king knowledge</span></h5>
         </div>
         <div class="nav" id='navid'>
             <ul>
@@ -35,5 +35,12 @@
         </div>
         <hr>
     </header>
+    <main>
+        <div class="main_title">
+            <h1>Online diary</h1>
+            <p>Цей додаток допоможе тобі викинути старий, нікому не потрібний, щоденник!<br>Записуй домашнє завдання прямо у браузері, та дивись ДЗ зручно!<br>Не забувай більше щоденник в дома!<br>Регеструйся!<br>Та отримуй ці fu*king знання</p>
+            <a href="#">Щоденник</a>
+        </div>
+    </main>
 </body>
 </html>
