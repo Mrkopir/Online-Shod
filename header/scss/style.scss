@@ -1,4 +1,24 @@
 // Only header
+$font: 'Roboto Mono', monospace;
+$fontP: 'Roboto Mono', monospace;
+$bgSites: wheat;
+
 body{
-    background: wheat;
+    background: $bgSites;
+}
+
+.logo img{
+    width: 40px;
+    float: left;
+}
+
+.logo h5{
+    font-family: $font;
+    font-size: 15px;
+}
+
+.logo .title_underText{
+    font-family: $fontP;
+    font-style: italic;
+    font-size: 10px;
 }
