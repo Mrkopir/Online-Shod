@@ -1,10 +1,20 @@
 // Only header
 $font: 'Roboto Mono', monospace;
 $fontP: 'Roboto Mono', monospace;
+$fontOpenSans: 'Open Sans', sans-serif;
 $bgSites: wheat;
 
 body{
     background: $bgSites;
+}
+
+.header_prog{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-top: 5px;
 }
 
 .logo img{
@@ -15,10 +25,42 @@ body{
 .logo h5{
     font-family: $font;
     font-size: 15px;
+    margin: 0;
+    width: 20em;
 }
 
 .logo .title_underText{
     font-family: $fontP;
     font-style: italic;
     font-size: 10px;
+}
+
+.nav{
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 0 0 0;
+        li{
+        list-style: none;
+        font-size: 20px;
+        font-family: $fontOpenSans;
+        margin: 0 20px 0 20px;
+        }
+    }
+}
+
+.log{
+    margin: -5px 0 0 0;
+    a{
+        list-style: none;
+        font-size: 20px;
+        font-family: $fontOpenSans;
+        color: black;
+    }
+}
+
+hr{
+    margin: 0 0 20px 0;
+    background: burlywood;
+    border: 1px solid burlywood;
 }
