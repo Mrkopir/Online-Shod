@@ -32,7 +32,7 @@
             </ul>
         </div>
         <div class="log">
-            <p><a href="#" class="sign_up_but">SIGN UP</a>  <a href="#" class="sign_in_but">SIGN IN</a></p>
+            <p><a href="#" class="sign_up_but">SIGN UP</a> <span class="line">|</span> <a href="#" class="sign_in_but">SIGN IN</a></p>
         </div>
         </div>
         <hr>
