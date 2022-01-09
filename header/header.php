@@ -32,7 +32,7 @@
             </ul>
         </div>
         <div class="log">
-            <p><a href="#" class="sign_up_but">SIGN UP</a>  <a href="#">SIGN IN</a></p>
+            <p><a href="#" class="sign_up_but">SIGN UP</a>  <a href="#" class="sign_in_but">SIGN IN</a></p>
         </div>
         </div>
         <hr>
@@ -57,6 +57,21 @@
         </div>
     </div>
     </div>
+    <div class="sing_in_pos hide">
+        <div class="sing_in">
+        <div class="sing_in_title">
+        <h5>Увійти</h5>
+        </div>
+        <div class="gmail">
+            <p>Електронна пошта</p>
+            <input type="text" placeholder="Електронна пошта">
+        </div>
+        <div class="password">
+            <p>Пароль</p>
+            <input type="text" placeholder="Пароль">
+        </div>
+        </div>
+        </div>
     <?php
     require('dopjs/dopjs.php');
     ?>
