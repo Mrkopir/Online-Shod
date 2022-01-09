@@ -19,6 +19,7 @@ body{
 
 .hide{
     opacity: 0;
+    transform: translateX(140px);
 }
 
 header{
@@ -129,7 +130,7 @@ main{
     justify-content: end;
     margin: 0 70px 0 0;
     z-index: 0;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .sing_up input{
@@ -168,7 +169,7 @@ main{
     justify-content: end;
     margin: 0 70px 0 0;
     z-index: 0;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .sing_in{
@@ -194,6 +195,3 @@ main{
     }
 }
 
-.active{
-    opacity: 1;
-}
