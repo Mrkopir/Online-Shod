@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<title>Online diary | Take bag and get this fu*king knowledge</title>
 </head>
 <body>
         <main>

@@ -3,6 +3,9 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Online diary | Take bag and get this fu*king knowledge</title>
     <link rel='stylesheet' href="header/css/style.css">
 </head>
 <body>
@@ -23,17 +25,38 @@
         </div>
         <div class="nav" id='navid'>
             <ul>
-                <li>Головна</li>
-                <li>Щоденник</li>
-                <li>Для батьків</li>
-                <li>Про нас</li>
+                <li><a href="index.php">Головна</a></li>
+                <li><a href="soon.php">Щоденник</a></li>
+                <li><a href="soon.php">Для батьків</a></li>
+                <li><a href="soon.php">Про нас</a></li>
             </ul>
         </div>
         <div class="log">
-            <p><a href="#">SIGN IN</a>  <a href="#">LOG IN</a></p>
+            <p><a href="#" class="sign_up_but">SIGN UP</a>  <a href="#">SIGN IN</a></p>
         </div>
         </div>
         <hr>
     </header>
-</body>
-</html>
+    <div class="sing_up_pos hide">
+    <div class="sing_up">
+        <div class="sing_up_title">
+        <h5>Зарегеструватися</h5>
+        </div>
+        <div class="gmail">
+            <p>Електронна пошта</p>
+            <input type="text" placeholder="Електронна пошта">
+        </div>
+        <div class="password">
+            <p>Пароль</p>
+            <input type="text" placeholder="Пароль">
+        </div>
+        <div class="password_repeat">
+            <p>Повторіть пароль</p>
+            <input type="text" placeholder="Повторіть пароль">
+        </div>
+        </div>
+    </div>
+    </div>
+    <?php
+    require('dopjs/dopjs.php');
+    ?>
