@@ -1,4 +1,4 @@
 <?php
 require('header/header.php');
-require('main_maige/mainge.php');
+require('about/about_main.php');
 ?>

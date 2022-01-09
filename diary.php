@@ -1,4 +1,4 @@
 <?php
 require('header/header.php');
-require('main_maige/mainge.php');
+require('diary/diary_main.php');
 ?>
