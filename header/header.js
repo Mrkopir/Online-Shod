@@ -2,6 +2,7 @@ let sing_up = document.querySelector('.sign_up_but');
 let sign_up_pos = document.querySelector('.sing_up_pos');
 let sing_in = document.querySelector('.sign_in_but');
 let sign_in_pos = document.querySelector('.sing_in_pos');
+let active = document.querySelector('.active')
 
 
 sing_up.onclick = function () {

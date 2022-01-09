@@ -25,7 +25,7 @@
         </div>
         <div class="nav" id='navid'>
             <ul>
-                <li><a href="index.php">Головна</a></li>
+                <li><a href="index.php">Головнa</a></li>
                 <li><a href="soon.php">Щоденник</a></li>
                 <li><a href="soon.php">Для батьків</a></li>
                 <li><a href="soon.php">Про нас</a></li>
