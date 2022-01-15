@@ -1,0 +1,9 @@
+.rot_text {
+  width: 50px;
+}
+
+.rot_text_p {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin: -10px;
+}

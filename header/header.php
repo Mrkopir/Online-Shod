@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel='stylesheet' href="header/css/style.css">
+    <link rel='stylesheet' href="../diary/css/diary_main.css">
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
         <div class="nav" id='navid'>
             <ul>
                 <li><a href="index.php">Головнa</a></li>
-                <li><a href="soon.php">Щоденник</a></li>
+                <li><a href="diary.php">Щоденник</a></li>
                 <li><a href="soon.php">Для батьків</a></li>
                 <li><a href="soon.php">Про нас</a></li>
             </ul>
