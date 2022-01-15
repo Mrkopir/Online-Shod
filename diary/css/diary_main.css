@@ -1,9 +1,70 @@
-.rot_text {
-  width: 50px;
-}
-
-.rot_text_p {
+.elemant_rotate {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
-  margin: -10px;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+.diaryTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.diaryTitle h2 {
+  font-family: "Roboto Mono", monospace;
+}
+
+.AllTable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 5% 10% 0 10%;
+  font-family: "Roboto Mono", monospace;
+}
+
+.AllTable__Mon-Tus-Wen table {
+  margin: 20px;
+}
+
+.AllTable__Tha-Fri-dop table {
+  margin: 20px;
+}
+.AllTable__Tha-Fri-dop textarea {
+  margin: 0 20px;
+  width: 415px;
+  height: 94px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+.dateText_rotateMonday {
+  margin: 0 -25px 0 -25px;
+}
+
+.dateText_rotateTusday {
+  margin: 0 -20px;
+}
+
+.dateText_rotateWensday {
+  margin: 0 -11px;
+}
+
+.dateText_rotateThatueday {
+  margin: 0 -11px;
+}
+
+.dateText_rotateFriday {
+  margin: 0 -20px;
 }

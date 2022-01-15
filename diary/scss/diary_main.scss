@@ -1,8 +1,69 @@
-.rot_text{
-   width: 50px;
+$font: 'Roboto Mono', monospace;
+
+//rotate
+.elemant_rotate{
+    transform: rotate(270deg);
 }
 
-.rot_text_p{
-    transform: rotate(270deg);
-    margin: -10px;
+p{
+    font-family: $font;
+}
+
+//title
+.diaryTitle{
+    display: flex;
+    justify-content: center;
+    h2{
+        font-family: $font;
+    }
+}
+
+//table
+.AllTable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5% 10% 0 10%;
+    font-family: $font;
+}
+
+.AllTable__Mon-Tus-Wen{
+    table{
+        margin: 20px;
+    }
+}
+
+.AllTable__Tha-Fri-dop{
+    table{
+        margin: 20px;
+    }
+    textarea{
+        margin: 0 20px;
+        width: 415px;
+        height: 94px;
+    }
+}
+
+table{
+    border: 1px solid black;
+}
+
+.dateText_rotateMonday{
+    margin: 0 -25px 0 -25px;
+}
+
+.dateText_rotateTusday{
+    margin: 0 -20px;
+}
+
+.dateText_rotateWensday{
+    margin: 0 -11px;
+}
+
+.dateText_rotateThatueday{
+    margin: 0 -11px;
+}
+
+.dateText_rotateFriday{
+    margin: 0 -20px;
 }
