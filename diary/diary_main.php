@@ -1,5 +1,5 @@
 <div class="diaryTitle">
-    <h2><time datetime="2022-01-15 19:00">15 Січня</time></h2>
+    <p><input type="date"></p>
 </div>
 
 <div class="AllTable">
@@ -100,7 +100,6 @@
             <td width="30px">6</td><td><input type="text" placeholder="Урок1" size="10"></td><td><input type="text" placeholder="ДЗ" size="25"></td><td>12</td>
     </tr>
 </table>
-
 <table border="4" cols="4">
         <tr>
             <td class="dataText" rowspan="7"><p class="dateText_rotateFriday elemant_rotate">П'ятниця</p></td>
