@@ -1,5 +1,13 @@
+$font: 'Roboto Mono', monospace;
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font;
+}
+
 .about{
-    margin: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10% 0 20px;
 }
 
 .TitleName{
@@ -8,4 +16,38 @@
 
 .About_text{
     margin: 5% 0 0 5%;
+    p{
+        margin: 0 0 10% 0;
+    }
+}
+
+.First_column{
+    width: 25%;
+}
+
+.Secound_column{
+    margin: 0 0 0 -5%;
+}
+
+.Thrit_column{
+    width: 30%;
+}
+
+.soc{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0 0 0;
+    a{
+    color: black;
+    user-select: none;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        transition: 1s;
+    }
+    }
+}
+
+.CathPhare p{
+    margin: 15% 0 0 0;
 }

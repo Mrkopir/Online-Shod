@@ -1,5 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Mono", monospace;
+}
+
 .about {
-  margin: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 10% 0 20px;
 }
 
 .TitleName {
@@ -8,4 +18,46 @@
 
 .About_text {
   margin: 5% 0 0 5%;
+}
+.About_text p {
+  margin: 0 0 10% 0;
+}
+
+.First_column {
+  width: 25%;
+}
+
+.Secound_column {
+  margin: 0 0 0 -5%;
+}
+
+.Thrit_column {
+  width: 30%;
+}
+
+.soc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10% 0 0 0;
+}
+.soc a {
+  color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+}
+.soc a:hover {
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.CathPhare p {
+  margin: 15% 0 0 0;
 }
