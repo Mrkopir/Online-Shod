@@ -83,6 +83,10 @@ header{
         font-size: 20px;
         font-family: $fontOpenSans;
         color: black;
+        &:hover{
+            color: white;
+            transition: 1s;
+        }
     }
 }
 
