@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <p>123</p>
-</body>
-</html>
+<div class="about">
+<div class="TitleName">
+    <h1>Четвертинівський Вова — <br>WEB Developer — <br>Ukraine, Illintsi</h1>
+</div>
+<div class="About_text">
+    <p>Привіт, мене звати Вова,<br> я ВЕБ розробник! <br> Володію HTML5 CSS3 JS PYTHON.</p>
+</div>
+</div>

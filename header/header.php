@@ -16,6 +16,7 @@
     <meta charset="UTF-8">
     <link rel='stylesheet' href="header/css/style.css">
     <link rel='stylesheet' href="../diary/css/diary_main.css">
+    <link rel='stylesheet' href="../about/css/about.css">
 </head>
 <body>
     <header>
@@ -29,7 +30,7 @@
                 <li><a href="index.php">Головнa</a></li>
                 <li><a href="diary.php">Щоденник</a></li>
                 <li><a href="soon.php">Для батьків</a></li>
-                <li><a href="soon.php">Про нас</a></li>
+                <li><a href="about.php">Про нас</a></li>
             </ul>
         </div>
         <div class="log">
