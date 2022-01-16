@@ -27,9 +27,9 @@
             <p>Take bag and keep this fu*king knowledge</p>
         </div>
         <div class="soc">
-            <p><a href="https://www.instagram.com/vova_chetvertinovski/">Instagram</a></p>
-            <p><a href="https://github.com/Mrkopir">Github</a></p>
-            <p><a href="https://www.tiktok.com/@program_ist">TikTok</a></p>
+            <p><a href="https://www.instagram.com/vova_chetvertinovski/" target="_blank">Instagram</a></p>
+            <p><a href="https://github.com/Mrkopir" target="_blank">Github</a></p>
+            <p><a href="https://www.tiktok.com/@program_ist" target="_blank">TikTok</a></p>
         </div>
     </div>
 </div>

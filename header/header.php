@@ -29,7 +29,6 @@
             <ul>
                 <li><a href="index.php">Головнa</a></li>
                 <li><a href="diary.php">Щоденник</a></li>
-                <li><a href="soon.php">Для батьків</a></li>
                 <li><a href="about.php">Про нас</a></li>
             </ul>
         </div>
