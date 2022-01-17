@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href="header/css/style.css">
     <link rel='stylesheet' href="../diary/css/diary_main.css">
     <link rel='stylesheet' href="../about/css/about.css">
@@ -28,7 +29,19 @@
         <div class="nav" id='navid'>
             <ul>
                 <li><a href="index.php">Головнa</a></li>
-                <li><a href="diary.php">Щоденник</a></li>
+                <li><a href="diary.php">Щоденник</a></li>   
+                <li><a href="about.php">Про нас</a></li>
+            </ul>
+        </div>
+        <div class="adapt">
+        <div class="nav_but">
+            <button>\NAV/</button>
+        </div>
+</div>
+        <div class="adapted_nav hide__but">
+        <ul>
+                <li><a href="index.php">Головнa</a></li>
+                <li><a href="diary.php">Щоденник</a></li>   
                 <li><a href="about.php">Про нас</a></li>
             </ul>
         </div>

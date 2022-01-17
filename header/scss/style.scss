@@ -22,6 +22,12 @@ body{
     transform: translateX(70px);
 }
 
+.hide__but{
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
 header{
     background: $bgSites;
     margin: 0;
@@ -213,3 +219,71 @@ main{
     transform: rotate(90deg);
 }
 
+.nav_but button{
+    background: content-box;
+    border: none;
+    font-size: 150%;
+    font-family: system-ui;
+}
+
+@media screen and (max-width: 3000px){
+    .nav_but{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .nav{
+        ul{
+            padding: 0 60px 0 0;
+            width: 95%;
+        }
+    }
+    
+    .header_prog{
+        margin: 0 45px -5px 45px;
+    }
+    .main_title{
+        a{
+            margin: 0 0 0 40.5%;
+        }
+    }
+    .nav_but{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .nav{
+        display: none;
+    }
+
+    .nav_but{
+        display: block;
+    }
+
+    .adapted_nav{
+        position: absolute;
+        background-color: burlywood;
+        border: 1px solid black;
+        margin: 10% 0 0 16%;
+        padding: 2%;
+        transition: 1s;
+    }
+        ul{
+            padding: 0;
+            li{
+                list-style: none;
+                a{
+                    color: black;
+                    text-decoration: none;
+                    font-family: $font;
+                    font-size: 20px;
+                }
+            }
+        }
+        button{margin: 13% 0 0 0;}
+        .main_title a{
+            margin: 0 0 0 37.5%;
+        }
+}
